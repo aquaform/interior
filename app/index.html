@@ -38,12 +38,15 @@
 	<!-- Load Custom CSS Start -->
 	<!--<Deject>--><script>loadCSS( "header.min.css?ver=1.0.0", false, "all" );</script><!--</Deject>-->
 	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+  <script>loadCSS( "css/bootstrap.css?ver=1.0.0", false, "all" );</script>
+
 	<!-- Load Custom CSS End -->
 
 	<!-- Load Custom CSS Compiled without JS Start -->
 	<noscript>
 		<link rel="stylesheet" href="css/fonts.min.css">
 		<link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 	</noscript>
 	<!-- Load Custom CSS Compiled without JS End -->
 
@@ -77,15 +80,15 @@
     </div>
 	</header>
 	<main>
-		<section class="main-offer">
-      <div class="main-offer__offer">
-        <div class="container">
+    <section class="main-offer">
+      <div class="container">
+        <div class="main-offer__offer">
           <h1 class="main-offer__offer-title">Современный европейский дизайн интерьеров в Сургуте</h1>
           <p class="main-offer__offer-description">
             Стоимость 600 рублей за кв/м.  Вы получаете готовый 3D дизайн вашей квартиры,
             три плана перепланировки, техническую документацию.
           </p>
-
+        </div>
         <form class="contact-block">
           <p class="contact-block__call-to-action">
             Закажи сейчас и получи
@@ -102,43 +105,183 @@
     <section class="features">
       <div class="container">
         <div class="features__item">
-          <img src="img/feature-1.svg">
+          <img src="img/feature-1.svg" width="68">
           <p>Учитываем современные тренды</p>
         </div>
         <div class="features__item">
-          <img src="img/feature-2.svg">
+          <img src="img/feature-2.svg" width="68">
           <p>Вызов замерщика бесплатно</p>
         </div>
         <div class="features__item">
-          <img src="img/feature-3.svg">
+          <img src="img/feature-3.svg" width="68">
           <p>Три варианта перепланировки</p>
         </div>
         <div class="features__item">
-          <img src="img/feature-4.svg">
+          <img src="img/feature-4.svg" width="68">
           <p>Трехмерная визуализация проекта</p>
         </div>
         <div class="features__item">
-          <img src="img/feature-5.svg">
+          <img src="img/feature-5.svg" width="68">
           <p>Схемы электрики, монтажа-демонтажа схема полов</p>
         </div>
         <div class="features__item">
-          <img width="68" src="img/feature-6.svg">
+          <img src="img/feature-6.svg" width="68">
           <p>Низкие цены на дизайн-проект</p>
         </div>
       </div>
     </section>
 
+    <section class="our-work">
+      <div class="container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/work-1.jpg" alt="Первая работа">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/work-2.jpg" alt="Вторая работа">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/work-3.jpg" alt="Третья работа">
+              <div class="carousel-caption">
+              </div>
+            </div>
+
+          </div>
+
+          <div class = "our-work__desc-box">
+            <h2 class="our-work__title">Наши работы</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum minus provident quidem
+              quis quo voluptates. Alias aliquid, at blanditiis reiciendis sit velit vero. Consectetur,
+              consequuntur debitis pariatur sunt tempora voluptatem.</p>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+              <img src="img/work-1.jpg" width="100px">
+            </li>
+            <li data-target="#carousel-example-generic" data-slide-to="1">
+              <img src="img/work-2.jpg" width="100px">
+            </li>
+            <li data-target="#carousel-example-generic" data-slide-to="2">
+              <img src="img/work-3.jpg" width="100px">
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="about-our-work">
+      <div class="container">
+        <h2 class="about-our-work__title">Как мы работаем</h2>
+        <ul class="about-our-work__list">
+          <li class="about-our-work__item">
+            <p>Вы оставляете заявку на замер</p>
+          </li>
+          <li class="about-our-work__item">
+            <p>Мы выполняем замеры и выясняем ваши предпочтения</p>
+          </li>
+          <li class="about-our-work__item">
+            <p>Мы предоставляем вам три варианта перепланировки</p>
+          </li>
+          <li class="about-our-work__item">
+            <p>Мы предоставляем готовый дизайн</p>
+          </li>
+          <li class="about-our-work__item">
+            <p>Вы указываете на то, что надо скорректировать</p>
+          </li>
+          <li class="about-our-work__item">
+            <p>Дизай-проект готов </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">Отзывы клиентов</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <div class="reviews__avatar">
+            </div>
+            <b class="reviews__author-name">Екатерина Башмакова</b>
+            <span class="reviews__project">Дизайн-проект гостинной за 80 000 р.</span>
+            <div class="reviews__photos">
+              <img src="img/review-1-1.jpg">
+            </div>
+            <div class="reviews__text">
+              <h3 class="reviews__prereview">Я просто в неописуемом детском восторге от студии</h3>
+              <p>Я просто в неописуемом детском восторге от студии</p>
+            </div>
+          </li>
+          <li class="reviews__item">
+            <div class="reviews__avatar">
+            </div>
+            <b class="reviews__author-name">Магомед Бердоев</b>
+            <span class="reviews__project">Дизайн-проект куъни за 20 000 р.</span>
+            <div class="reviews__photos">
+              <img src="img/review-2-1.jpg">
+            </div>
+            <div class="reviews__text">
+              <h3 class="reviews__prereview">Я просто в описуемом детском восторге от студии</h3>
+              <p>Я просто в неописуемом детском восторге от студии</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="container">
+        <form class="contact-block">
+          <p class="contact-block__call-to-action">
+            Закажи сейчас и получи
+            замеры <b>БЕСПЛАТНО</b>
+          </p>
+          <input class="contact-block__name" type="text" placeholder="Введите имя" required>
+          <input class="contact-block__tel" type="text" placeholder="Ваш номер телефона" required>
+          <input class="contact-block__email" type="text" placeholder="Адрес e-mail">
+          <input class="contact-block__submit" type="submit" value="Заказать">
+        </form>
+      </div>
+    </section>
 	</main>
 	<footer class="main-footer">
-    <div class="container"></div>
-
+    <div class="container">
+      <div class="logo">
+        <span>interior design</span>
+      </div>
+      <div class="descriptor">
+        Дизайн интерьеров в Сургуте
+      </div>
+      <form class="mini-contact-block">
+        <a class="mini-contact-block__our-tel" href="tel:+79174502779">+7 917 450-27-79</a>
+        <input class="mini-contact-block__tel-input" type="text" placeholder="Введите телефон">
+        <input class="mini-contact-block__tel-submit" type="submit" value="Заказать звонок">
+      </form>
+    </div>
 	</footer>
 
 
 	<!-- Optimized loading JS Start -->
 	<script>var scr = {"scripts":[
 		{"src" : "js/libs.min.js", "async" : false},
-		{"src" : "js/common.js", "async" : false}
+		{"src" : "js/common.js", "async" : false},
+    {"src" : "js/bootstrap.js", "async" : false}
 		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 	</script>
 	<!-- Optimized loading JS End -->

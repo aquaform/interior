@@ -2,3 +2,7 @@
 
 @include font-face(roboto, "../fonts/RobotoRegular/RobotoRegular",$file-formats: eot woff2 woff);
 @include font-face(roboto, "../fonts/RobotoRegular/RobotoBold", bold,$file-formats: eot woff2 woff);
+
+@include font-face(helveticaneuecyr, "../fonts/RobotoRegular/HelveticaNeuecyrRoman", $file-formats: woff2 woff);
+@include font-face(helveticaneuecyr, "../fonts/RobotoRegular/HelveticaNeuecyrMedium", medium,$file-formats: woff2 woff);
+@include font-face(helveticaneuecyr, "../fonts/RobotoRegular/HelveticaNeuecyrBold", bold,$file-formats: woff2 woff);

@@ -17,6 +17,7 @@ var gulp           = require('gulp'),
 		ftp            = require('vinyl-ftp'),
 		notify         = require("gulp-notify");
 
+
 gulp.task('browser-sync', function() {
 	browserSync({
 		server: {
@@ -61,8 +62,8 @@ gulp.task('libs', function() {
 });
 
 gulp.task('watch', ['sass', 'libs', 'browser-sync'], function() {
-	gulp.watch('app/header.sass', ['headersass']);
-	gulp.watch('app/sass/**/*.scss', ['scss']);
+	gulp.watch('app/header.scss', ['headersass']);
+	gulp.watch('app/sass/**/*.scss', ['sass']);
 	gulp.watch('app/*.html', browserSync.reload);
 	gulp.watch('app/js/**/*.js', browserSync.reload);
 });
