@@ -7,5 +7,12 @@
   font-weight: 500;
   line-height: 27px;
   text-align: center;
+
+
+}
+
+.col-0-0 {
+  @include make-col-ready();
+  @include make-col($, 12);
 }
 
