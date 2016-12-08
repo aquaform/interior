@@ -38,7 +38,7 @@
 	<!-- Load Custom CSS Start -->
 	<!--<Deject>--><script>loadCSS( "header.min.css?ver=1.0.0", false, "all" );</script><!--</Deject>-->
 	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
-  <script>loadCSS( "css/bootstrap-grid.min.css", false, "all" );</script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Load Custom CSS End -->
 
@@ -67,32 +67,36 @@
 	<header class="main-header">
     <div class="container">
       <div class="row">
-        <div class="logo  col-0-0">
+        <div class="logo col-xs-6 col-sm-3 col-md-2">
           <span>interior<br> design</span>
         </div>
-        <div class="descriptor">
+        <div class="descriptor col-xs-6 col-sm-3 col-md-2">
           <p>Дизайн интерьеров в городе Сургуте</p>
         </div>
-        <form class="mini-contact-block">
-          <a class="mini-contact-block__our-tel" href="tel:+79174502779">+7 917 450-27-79</a>
+        <form class="mini-contact-block col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-4">
+          <a class="mini-contact-block__our-tel col-xs-12" href="tel:+79174502779">+7 917 450-27-79</a>
           <input class="mini-contact-block__tel-input" type="text" placeholder="Введите телефон">
           <input class="mini-contact-block__tel-submit" type="submit" value="Заказать звонок">
         </form>
       </div>
     </div>
 	</header>
-  <!--
+
+
 	<main>
     <section class="main-offer">
-      <div class="container">
-        <div class="main-offer__offer">
+      <div class="main-offer__offer">
+        <div class="container">
           <h1 class="main-offer__offer-title">Современный европейский дизайн интерьеров в Сургуте</h1>
           <p class="main-offer__offer-description">
             Стоимость 600 рублей за кв/м.  Вы получаете готовый 3D дизайн вашей квартиры,
             три плана перепланировки, техническую документацию.
           </p>
         </div>
-        <form class="contact-block">
+      </div>
+      <div class="container">
+
+       <!--<form class="contact-block">
           <p class="contact-block__call-to-action">
             Закажи сейчас и получи
             замеры <b>БЕСПЛАТНО</b>
@@ -101,10 +105,12 @@
           <input class="contact-block__tel" type="text" placeholder="Ваш номер телефона" required>
           <input class="contact-block__email" type="text" placeholder="Адрес e-mail">
           <input class="contact-block__submit" type="submit" value="Заказать">
-        </form>
+        </form>-->
       </div>
     </section>
 
+  </main>
+<!--
     <section class="features">
       <div class="container">
         <div class="features__item">

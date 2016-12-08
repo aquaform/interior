@@ -1,0 +1,84 @@
+.main-offer {
+  background-image: url("../img/offer-bg.jpg");
+  background-size: cover;
+  min-height: 824px ;
+
+  text-align: center;
+
+}
+
+.main-offer__offer {
+  opacity: 0.85;
+  background-color: white;
+  padding: 10px;
+
+}
+
+.main-offer__offer-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main-offer__offer-description {
+  font-size: 14px;
+}
+
+
+
+
+/* Extra Small Devices, Phones*/
+@media only screen and (min-width : 480px){
+
+  .main-offer__offer-title {
+    font-size: 24px;
+  }
+
+  .main-offer__offer-description {
+    font-size: 16px;
+  }
+}
+
+
+/* Small Devices, Tablets*/
+@media only screen and (min-width : 768px){
+  .main-offer__offer-title {
+    font-size: 26px;
+  }
+
+  .main-offer__offer-description {
+    font-size: 17px;
+  }
+
+}
+
+
+/* Medium Devices, Desktops*/
+@media only screen and (min-width : 992px) {
+  .main-offer__offer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .main-offer__offer-title {
+    font-size: 28px;
+  }
+
+  .main-offer__offer-description {
+    font-size: 18px;
+  }
+
+}
+
+
+/* Large Devices, Wide Screens*/
+@media only screen and (min-width : 1200px) {
+  .main-offer__offer-title {
+    font-size: 32px;
+  }
+
+  .main-offer__offer-description {
+    font-size: 20px;
+  }
+}
