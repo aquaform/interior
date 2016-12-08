@@ -30,8 +30,8 @@
 
 	<!-- Load Fonts CSS Start -->
 	<script>
-		loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
-		// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
+		//loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+		loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
 	</script>
 	<!-- Load Fonts CSS End -->
 
@@ -74,14 +74,15 @@
           <p>Дизайн интерьеров в городе Сургуте</p>
         </div>
         <form class="mini-contact-block col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-4">
-          <a class="mini-contact-block__our-tel col-xs-12" href="tel:+79174502779">+7 917 450-27-79</a>
-          <input class="mini-contact-block__tel-input" type="text" placeholder="Введите телефон">
-          <input class="mini-contact-block__tel-submit" type="submit" value="Заказать звонок">
+          <div class="row">
+            <a class="mini-contact-block__our-tel col-xs-12" href="tel:+79174502779">+7 917 450-27-79</a>
+            <input class="mini-contact-block__tel-input" type="text" placeholder="Введите телефон">
+            <input class="mini-contact-block__tel-submit" type="submit" value="Заказать звонок">
+          </div>
         </form>
       </div>
     </div>
 	</header>
-
 
 	<main>
     <section class="main-offer">
@@ -95,8 +96,7 @@
         </div>
       </div>
       <div class="container">
-
-       <!--<form class="contact-block">
+       <form class="contact-block col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8">
           <p class="contact-block__call-to-action">
             Закажи сейчас и получи
             замеры <b>БЕСПЛАТНО</b>
@@ -105,7 +105,7 @@
           <input class="contact-block__tel" type="text" placeholder="Ваш номер телефона" required>
           <input class="contact-block__email" type="text" placeholder="Адрес e-mail">
           <input class="contact-block__submit" type="submit" value="Заказать">
-        </form>-->
+        </form>
       </div>
     </section>
 

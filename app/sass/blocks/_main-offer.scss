@@ -5,26 +5,25 @@
 
   text-align: center;
 
+  position: relative;
+
 }
 
 .main-offer__offer {
   opacity: 0.85;
   background-color: white;
   padding: 10px;
-
 }
 
 .main-offer__offer-title {
   font-size: 20px;
   font-weight: 700;
+
 }
 
 .main-offer__offer-description {
   font-size: 14px;
 }
-
-
-
 
 /* Extra Small Devices, Phones*/
 @media only screen and (min-width : 480px){
