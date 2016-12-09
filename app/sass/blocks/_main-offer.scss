@@ -1,19 +1,26 @@
 .main-offer {
+  display: flex;
+  flex-direction: column;
+
   background-image: url("../img/offer-bg.jpg");
-  background-size: cover;
-  min-height: 824px ;
+  background-position: cover;
+  background-position-y:  bottom;
 
+  padding-bottom: 70px;
   text-align: center;
-
-  position: relative;
-
+  border-bottom: 10px solid #6faede;
 }
 
 .main-offer__offer {
+  position: relative;
   opacity: 0.85;
   background-color: white;
-  padding: 10px;
+
+  border-bottom: 2px solid rgba(0, 0, 0, 0.17);
+
+  margin-bottom: 70px;
 }
+
 
 .main-offer__offer-title {
   font-size: 20px;
